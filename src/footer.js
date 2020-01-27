@@ -4,11 +4,9 @@ class Footer extends React.Component {
     render() {
         return (
             <div className="footer">
-                <div className="row">
-                    <div className="col">
+                  <h6>
                     2020 &copy; All Rights Reserved.
-                    </div>
-                </div>
+                   </h6>
             </div>
         );
     }

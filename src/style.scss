@@ -25,17 +25,25 @@ button {
   }
 }
 .footer {
-  position: absolute;
-  bottom: 0;
   text-align: center;
   width: 100%;
-  div{
-    
-    color: $secondary-color;
-    background-color: $primary-color;
+  background-color: $primary-color;
+  h6{
+    color: $secondary-color;   
   }
 }
-
+// @media only screen and (min-width: 600px) {
+//   .footer {
+//     position: absolute;
+//     bottom: 0;
+//   }
+// }
+@media only screen and (min-width: 600px) {
+  .footer {
+    position: relative;
+    bottom: 0;
+  }
+}
 .flex-container {
   margin: 0;
   padding: 0;
@@ -54,16 +62,7 @@ button {
   }
 }
 
-.home {
-  height: 380px;
-  width: 100%;
-  padding-top: 40vh;
-  overflow: hidden;
-  align-items: center;
-  text-align: center;
-  background: linear-gradient(to right, rgba(black, 0.9), rgba(gray, 0.3)), url("./model-1.jpg") center top;
-  background-size: cover;
-}
+
 .fullwidth{
   width: 100%;
 }
